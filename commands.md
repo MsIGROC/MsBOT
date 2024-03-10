@@ -1,41 +1,41 @@
 # Commands Documentation
 
-> Commands can be executed via Discord or In-Game Team Chat. To be able to run Slash Commands in Discord, you need to be part of the designated Discord Role for the bot. If no role is set for the bot then everyone should be able to use the Slash Commands by default. To be able to run In-Game Commands, you need to be in the same In-Game Team as the hoster. In-Game Commands can only be run from Team Chat, not global chat. You can also run In-Game commands from the Discord Text-Channel `commands`.
+> Команды можно выполнять через Discord или внутриигровой командный чат. Чтобы иметь возможность запускать слэш-команды в Discord, вам необходимо быть частью назначенной роли Discord для бота. Если для бота не установлена ​​роль, то каждый должен иметь возможность использовать команды слэша по умолчанию. Чтобы иметь возможность запускать внутриигровые команды, вам необходимо состоять в той же игровой команде, что и хостер. Внутриигровые команды можно запускать только из командного чата, а не из глобального чата. Вы также можете запускать внутриигровые команды из текстового канала Discord commands.
 
-- [Discord Slash Commands](commands.md#discord-slash-commands)
-- [In-Game Commands](commands.md#in-game-commands)
+- [Слэш-команды Discord](commands.md#discord-slash-commands)
+- [Внутриигровые команды](commands.md#in-game-commands)
 
-# Discord Slash Commands
+# Слэш-команды Discord
 
-Slash Command | Description
+Слэш-команда | Описание
 ------------- | -----------
-[**/alarm**](commands.md#alarm) | Operations on Smart Alarms.
-[**/alias**](commands.md#alias) | Create an alias for a command/sequence of characters.
-[**/blacklist**](commands.md#blacklist) | Blacklist a user from using the bot.
-[**/cctv**](commands.md#cctv) | Posts CCTV codes for a monument.
-[**/craft**](commands.md#craft) | Display the cost to craft an item.
-[**/credentials**](commands.md#credentials) | Set/Clear the FCM Credentials for the user account.
-[**/decay**](commands.md#decay) | Display the decay time of an item.
-[**/help**](commands.md#help) | Display help message.
-[**/item**](commands.md#item) | Get the details of an item.
-[**/leader**](commands.md#leader) | Give or take the leadership from/to a team member.
-[**/map**](commands.md#map) | Get the currently connected server map image.
-[**/market**](commands.md#market) | Operations for In-Game Vending Machines.
-[**/players**](commands.md#players) | Get player/players information based on battlemetrics.
-[**/recycle**](commands.md#recycle) | Display the output of recycling an item.
-[**/research**](commands.md#research) | Display the cost to research an item.
-[**/reset**](commands.md#reset) | Reset Discord channels.
-[**/role**](commands.md#role) | Set/Clear a specific role that will be able to see the rustplusplus category content.
-[**/storagemonitor**](commands.md#storagemonitors) | Operations on Storage Monitors.
-[**/switch**](commands.md#switch) | Operations on Smart Switches.
-[**/upkeep**](commands.md#upkeep) | Get the upkeep cost of an item.
-[**/uptime**](commands.md#uptime) | Display uptime of the bot and server.
-[**/voice**](commands.md#voice) | Operations on Voice Feature.
+[**/alarm**](commands.md#alarm) | Операции с интеллектуальными сигнализациями.
+[**/alias**](commands.md#alias) | Создайте псевдоним для команды/последовательности символов.
+[**/blacklist**](commands.md#blacklist) | Занесите пользователя в черный список от использования бота.
+[**/cctv**](commands.md#cctv) | Вывешивает коды видеонаблюдения для памятника.
+[**/craft**](commands.md#craft) | 	Отображение стоимости изготовления предмета.
+[**/credentials**](commands.md#credentials) | Установите/очистите учетные данные FCM для учетной записи пользователя.
+[**/decay**](commands.md#decay) | 	Отображение времени распада предмета.
+[**/help**](commands.md#help) | Отображение справочного сообщения.
+[**/item**](commands.md#item) | Получите подробную информацию об объекте.
+[**/leader**](commands.md#leader) | 	Отдавайте или передавайте лидерство члену команды.
+[**/map**](commands.md#map) | Получите изображение карты подключенного в данный момент сервера.
+[**/market**](commands.md#market) | 	Операции для внутриигровых торговых автоматов.
+[**/players**](commands.md#players) | 	Получите информацию об игроке/игроках на основе показателей боя.
+[**/recycle**](commands.md#recycle) | 	Отображение результатов переработки предмета.
+[**/research**](commands.md#research) | Отображение стоимости исследования предмета.
+[**/reset**](commands.md#reset) | Сброс каналов Discord.
+[**/role**](commands.md#role) | 	Установите/очистите определенную роль, которая сможет видеть содержимое категории RustPlusPlus.
+[**/storagemonitor**](commands.md#storagemonitors) | Операции с мониторами хранилища.
+[**/switch**](commands.md#switch) | 	Операции на интеллектуальных коммутаторах.
+[**/upkeep**](commands.md#upkeep) | Получите стоимость содержания предмета.
+[**/uptime**](commands.md#uptime) | Отображение времени безотказной работы бота и сервера.
+[**/voice**](commands.md#voice) | 	Операции с голосовой функцией.
 
 
 ## **/alarm**
 
-> **Operations on Smart Alarms.**
+> **Операции с интеллектуальными сигнализациями.**
 
 Subcommand | Options | Description | Required
 ---------- | ------- | ----------- | --------
